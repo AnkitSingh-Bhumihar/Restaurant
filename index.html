@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Resturant Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+     <!-- Embedding Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+       rel="stylesheet"
+     />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--PopUp Start-->
+    <div id="popUpMain" class="mainCard" style="display: none;">
+        
+        <div class="card" id="popUp">
+            <div class="card-img-overlay">
+           <button type="button" style="font-size:25px;float:right" id="closebtn" data-bs-dismiss="mainCard" class=" btn-close float-right" aria-label="Close"></button>
+       
+           <h5 id="bannerOpen" class="card-title text-white">WELCOME</h5>
+            <P id="bannerOpen" class="card-title text-white">We are Available</P>
+            <p id="bannertext" class="card-text text-light">Sunday-Thursday<br> 7:30AM - 8:00PM</p>
+            <p id="bannertext" class="card-text text-light">Friday-Saturday<br> 7:30AM - 9:00PM</p>
+            </div>
+        </div>
+    </div>
+    <!--PopUp End-->
+    <!--header section start-->
+    <header id="header" class="">
+        <nav>
+            <ul id="slowDown1" style="">
+                <li><a href="#home">home</a></li>
+                <li><a href="#special">special</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#dish">dishes</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+         
+        <div class="fas fa-hamburger"></div>
+        
+        <a href="#" class="logo"><img src="Images/Sizzler's.png" alt="nav-icon"></a>
+        </header>
+        <!--header section end-->
+        <!--home section start-->
+        <section id="home" class="container-fluid">
+
+            <div class="row min-vh-100   align-items-center">
+               
+            <div class="col-md-8  ml-md-5 text-md-left  align-items-start content">
+                <h1>We’re always in the mood for food</h1>
+                <h2>Don’t panic! We’re organic</h2>
+                <p>Our family gets a little bigger every time you come by.</p>
+                <a href="#special"><button>Order Now</button></a>
+            </div>
+             
+            <div class="video-container">
+               <video src="Images/video.mp4" autoplay=" " loop="" class="vid vid1"></video>
+                <video src="Images/production ID_4068138.mp4" autoplay="" loop="" class="vid vid2"></video>
+                <video src="Images/production ID_4473176.mp4" autoplay="" loop="" class="vid vid3"></video>
+             
+            </div>
+            
+            
+             
+            
+            <div class="controls d-flex justify-content-center">
+                <div class="dots dot1"></div>
+                <div class="dots dot2"></div>
+                <div class="dots dot3"></div>
+            </div>
+            
+            </div>
+            
+            </section>
+            <!--home section end-->
+            <section ID="brand" class="container-fluid">
+                <div class="heading text-center"><hr><br><br>
+                    <h1>SIZZLERS &emsp;   <span>& &emsp;    DIZZLERS</span></h1><br>
+                    <hr>
+                    </div>
+            </section>
+            <!--special card section start-->
+            <section id="special" class="container-fluid">
+
+                <div class="heading text-center">
+                <h1>Our <span>Restaurants</span></h1>
+                <h2>.....</h2>
+                </div>
+                
+                <center>
+                <div class="card-container d-flex   justify-content-center">
+                <div class="row">
+                 
+                <div class="col-md-3">
+                 <!--Card Start-->
+                 <div class="card">
+                    <img src="images/Surya Dhaba.jpg" class="card-img-top" alt="7th Heaven Hotel">
+                   
+                      
+                   <div class="list-group card-body">
+                        <li class="list-group-item promoCode">
+                            <h3 class="card-title float-start ">Surya Dhabha<br> </h3><h5><span class="text-muted float-start">North Indian, Snacks, Chinese</span></h5> 
+                        </li>
+                        <li class="list-group-item mt-1 mb-3 promoCode"> 
+                            <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.0 </span> 
+                        </li>
+                        
+                        <li class="list-group-item p-3 promoCode">
+                            <span class="fa-stack fa-lg float-start">
+                                <i class="fa fa-certificate fa-stack-2x"></i>
+                                <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                            </span> 
+                            <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+                       </li>
+                  </div>
+                  
+                
+                </div>
+                <!--Card End-->
+                </div>
+                <div class="col-md-3">
+                    <!--Card Start-->
+                       <div class="card">
+                           <img src="images/7th Heaven [khalifabag].jpg" class="card-img-top" alt="7th Heaven Hotel">
+                          
+                             
+                          <div class="list-group card-body">
+                               <li class="list-group-item promoCode">
+                                   <h3 class="card-title float-start ">5th Heaven Hotel<br> </h3><h5><span class="text-muted float-start">Italian, Continental, Chinese, Bakery</span></h5> 
+                               </li>
+                               <li class="list-group-item mt-1 mb-3 promoCode"> 
+                                   <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.2 </span> 
+                               </li>
+                               
+                               <li class="list-group-item p-3 promoCode">
+                                   <span class="fa-stack fa-lg float-start">
+                                       <i class="fa fa-certificate fa-stack-2x"></i>
+                                       <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                                   </span> 
+                                   <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">20% off | USE Promo Code</div>  </a>  
+                              </li>
+                         </div>
+                   
+                       </div>
+                   <!--Card End-->
+                   </div>
+                <div class="col-md-3">
+                 <!--Card Start-->
+                 <div class="card">
+                    <img src="images/Dosa Plaza.jpg" class="card-img-top" alt="7th Heaven Hotel">
+                   
+                      
+                   <div class="list-group card-body">
+                        <li class="list-group-item promoCode">
+                            <h3 class="card-title float-start ">Dosa Plaza &nbsp; <br> </h3><h5><span class="ml-3 text-muted float-start">South Indian (Dosa, Idli, Uttapam)</span></h5> 
+                        </li>
+                        <li class="list-group-item mt-1 mb-3 promoCode"> 
+                            <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.4 </span> 
+                        </li>
+                        
+                        <li class="list-group-item p-3 promoCode">
+                            <span class="fa-stack fa-lg float-start">
+                                <i class="fa fa-certificate fa-stack-2x"></i>
+                                <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                            </span> 
+                            <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+                       </li>
+                  </div>
+                
+                </div>
+                <!--Card End-->
+                </div>
+                
+                <div class="col-md-3">
+                 <!--Card Start-->
+                 <div class="card">
+                    <img src="images/Bhukkhad.jpg" class="card-img-top" alt="7th Heaven Hotel">
+                   
+                      
+                   <div class="list-group card-body">
+                        <li class="list-group-item promoCode">
+                            <h3 class="card-title float-start ">Bhukkhad<br> </h3><h5><span class="text-muted float-start">Biryani, Chinese, North Indian</span></h5> 
+                        </li>
+                        <li class="list-group-item mt-1 mb-3 promoCode"> 
+                            <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.5 </span> 
+                        </li>
+                        
+                        <li class="list-group-item p-3 promoCode">
+                            <span class="fa-stack fa-lg float-start">
+                                <i class="fa fa-certificate fa-stack-2x"></i>
+                                <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                            </span> 
+                            <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+                       </li>
+                  </div>
+                
+                </div>
+                <!--Card End-->
+                </div>
+                </div>
+                    
+                
+                   
+                </div>
+                </center>
+
+
+
+                <center>
+                    <div class="card-container d-flex   justify-content-center">
+                    <div class="row">
+                     
+                    <div class="col-md-3">
+                     <!--Card Start-->
+                     <div class="card">
+                        <img src="images/Surya Dhaba.jpg" class="card-img-top" alt="7th Heaven Hotel">
+                       
+                          
+                       <div class="list-group card-body">
+                            <li class="list-group-item promoCode">
+                                <h3 class="card-title float-start ">Surya Dhabha<br> </h3><h5><span class="text-muted float-start">North Indian, Snacks, Chinese</span></h5> 
+                            </li>
+                            <li class="list-group-item mt-1 mb-3 promoCode"> 
+                                <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.0 </span> 
+                            </li>
+                            
+                            <li class="list-group-item p-3 promoCode">
+                                <span class="fa-stack fa-lg float-start">
+                                    <i class="fa fa-certificate fa-stack-2x"></i>
+                                    <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                                </span> 
+                                <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+                           </li>
+                      </div>
+                      
+                    
+                    </div>
+                    <!--Card End-->
+                    </div>
+                    <div class="col-md-3">
+                        <!--Card Start-->
+                           <div class="card">
+                               <img src="images/7th Heaven [khalifabag].jpg" class="card-img-top" alt="7th Heaven Hotel">
+                              
+                                 
+                              <div class="list-group card-body">
+                                   <li class="list-group-item promoCode">
+                                       <h3 class="card-title float-start ">5th Heaven Hotel<br> </h3><h5><span class="text-muted float-start">Italian, Continental, Chinese, Bakery</span></h5> 
+                                   </li>
+                                   <li class="list-group-item mt-1 mb-3 promoCode"> 
+                                       <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.2 </span> 
+                                   </li>
+                                   
+                                   <li class="list-group-item p-3 promoCode">
+                                       <span class="fa-stack fa-lg float-start">
+                                           <i class="fa fa-certificate fa-stack-2x"></i>
+                                           <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                                       </span> 
+                                       <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">20% off | USE Promo Code</div>  </a>  
+                                  </li>
+                             </div>
+                       
+                           </div>
+                       <!--Card End-->
+                       </div>
+                    <div class="col-md-3">
+                     <!--Card Start-->
+                     <div class="card">
+                        <img src="images/Dosa Plaza.jpg" class="card-img-top" alt="7th Heaven Hotel">
+                       
+                          
+                       <div class="list-group card-body">
+                            <li class="list-group-item promoCode">
+                                <h3 class="card-title float-start ">Dosa Plaza &nbsp; <br> </h3><h5><span class="ml-3 text-muted float-start">South Indian (Dosa, Idli, Uttapam)</span></h5> 
+                            </li>
+                            <li class="list-group-item mt-1 mb-3 promoCode"> 
+                                <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.4 </span> 
+                            </li>
+                            
+                            <li class="list-group-item p-3 promoCode">
+                                <span class="fa-stack fa-lg float-start">
+                                    <i class="fa fa-certificate fa-stack-2x"></i>
+                                    <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                                </span> 
+                                <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+                           </li>
+                      </div>
+                    
+                    </div>
+                    <!--Card End-->
+                    </div>
+                    
+                    <div class="col-md-3">
+                     <!--Card Start-->
+                     <div class="card">
+                        <img src="images/Bhukkhad.jpg" class="card-img-top" alt="7th Heaven Hotel">
+                       
+                          
+                       <div class="list-group card-body">
+                            <li class="list-group-item promoCode">
+                                <h3 class="card-title float-start ">Bhukkhad<br> </h3><h5><span class="text-muted float-start">Biryani, Chinese, North Indian</span></h5> 
+                            </li>
+                            <li class="list-group-item mt-1 mb-3 promoCode"> 
+                                <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> ☆ 4.5 </span> 
+                            </li>
+                            
+                            <li class="list-group-item p-3 promoCode">
+                                <span class="fa-stack fa-lg float-start">
+                                    <i class="fa fa-certificate fa-stack-2x"></i>
+                                    <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                                </span> 
+                                <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+                           </li>
+                      </div>
+                    
+                    </div>
+                    <!--Card End-->
+                    </div>
+                    </div>
+                        
+                    
+                       
+                    </div>
+                    </center>
+
+
+
+
+                </section>
+                <!--special card section end-->
+                <!--about section start-->
+                <section id="about" class="container">
+                    <div class="heading text-center">
+                      <h1><span>About</span> Us</h1>
+                    </div>
+                
+                    <div class="row min-vh-50">
+                
+                        <div class="col-md-6 text-justify text-md-left align-self-center content">
+                            <p>Craving some delicious Deshi food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in mind, Our Restaurant is ready to prepare it for you.
+                
+                             Since 2001, In addition to wholesome and flavorful dining options for lunch and dinner. 
+                             From burgers to salads, seafood to pastas, you’ll find all kinds of hearty meals prepared fresh at Our Restaurant. Our diner also has a full bakery with delicious baked goods and other treats, including our famous cheesecake. Sounds delicious, right?
+                                
+                            We’re here to serve you the best food around, whenever you’re looking for a great Indian restaurant in Your city.</p>
+                            <a href="#"><button class="p-2">Explore More</button></a>
+                        </div>
+                
+                        <div class="col-md-6 image">
+                            <img src="Images/chef_img.png" alt="">
+                        </div>
+                
+                    </div>
+                
+                </section>
+                <!--about section end-->
+                <!--dish section start-->
+                <section id="dish" class="container">
+
+                    <div class="heading text-center">
+                        <h1>our <span>dishes</span></h1>
+                    </div>
+                
+                    <div class="box-container">
+                
+                        <div class="box">
+                            <img src="Images/momos.jpg" alt="">
+                            <div class="info">
+                                <h3>MOMO</h3>
+                                <p>Maggi, Veg/Non Veg Momo, Noodles, Pasta</p>
+                                <a href="#"><button>view</button></a>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <img src="Images/cake.jpg" alt="">
+                            <div class="info">
+                                <h3>Cake</h3>
+                                <p>Dark Knight, Coffee Pasty  </p>
+                                <a href="#"><button>view</button></a>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <img src="Images/burger.jpg" alt="">
+                            <div class="info">
+                                <h3>Burger</h3>
+                                <p>Chilly Burger, Grilled Sandwich, Chicken Popcorn, Paneer Pops</p>
+                                <a href="#"><button>view</button></a>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <img src="Images/thali.jpg" alt="">
+                            <div class="info">
+                                <h3>Thali</h3>
+                                <p>Veg Thali, Daali, Dry Bhaaji,  Salad, Rasgulla Small</p>
+                                <a href="#"><button>view</button></a>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <img src="Images/juice.jpg" alt="">
+                            <div class="info">
+                                <h3>Juice</h3>
+                                <p>Lime Juice, Orange Juice, Carrot Juice</p>
+                                <a href="#"><button>view</button></a>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <img src="Images/roll.jpg" alt="">
+                            <div class="info">
+                                <h3>Roll</h3>
+                                <p>Egg Roll,Paneer Roll, Chicken Roll
+                                    Schezwan Roll, Manchurian Roll</p>
+                                <a href="#"><button>view</button></a>
+                            </div>
+                        </div>
+                
+                    </div>
+                
+                </section>
+                <!--dish section end-->
+                <!--contact section start-->
+                <section id="contact" class="container-fluid pb-4">
+
+                    <div class="heading text-center">
+                        <h1><span>contact</span> us</h1>
+                    </div>
+                
+                    <div class="row justify-content-center">
+                
+                        <form action="" class="col-md-7">
+                
+                            <div class="inputBox">
+                                <input type="text" required="">
+                                <h3>full name</h3>
+                            </div>
+                
+                            <div class="inputBox">
+                                <input type="email" required="">
+                                <h3>e-mail</h3>
+                            </div>
+                
+                            <div class="inputBox">
+                                <textarea required="" name="" id="" cols="30" rows="10"></textarea>
+                                <h3>message</h3>
+                            </div>
+                
+                            <input type="submit" value="send">
+                
+                        </form>
+                
+                    </div>
+                
+                </section>
+                <!--contact section ens-->
+                <!--footer section start-->
+                <section id="footer" class="container-fluid">
+
+                    <div class="row align-items-center">
+                    
+                    <div class="col-md-4 brand"> 
+                    <a href="#" class="logo">
+                        <img src="Images/Sizzler's.png" alt="nav-icon">
+                    </a>
+                    
+                    <div class="icons">
+                        <a href="https://www.facebook.com/ANKIT-KUMAR-SINGH-2690130974335786/" class="fab fa-facebook-square"></a>
+                        <a href="#" class="fab fa-twitter-square"></a>
+                        <a href="http://www.instagram.com/__stud_devil__" class="fab fa-instagram-square"></a>
+                        <a href="https://www.linkedin.com/in/ankit-kumar-singh-31824a1a1" class="fab fa-linkedin"></a>
+                    </div>
+                    
+                    </div>
+
+                    
+                    <div class="col-md-4 img-container">
+                            <span class="img-bar"></span>
+                            <span class="img-bar"></span>
+                            <span class="img-bar"></span>
+                            
+                        </div>
+                
+                    <div class="col-md-4 text-center text-md-left letter">
+                    <h2>Newsletter</h2>
+                    <input type="text"><br>
+                    <input type="submit" value="subscribe">
+                    </div>
+                    
+                    </div>
+                    
+                    <h1>© copyright @ 2021 by <span>ankitkumars413@gmail.com</span></h1>
+                    
+                    </section>
+                    <!--footer section end-->
+                    <!--script part start-->
+                    <script>
+                        //store src
+                          
+                        $(document).ready(function(){
+                         
+                            $("#slowDown1").fadeIn(2000);
+                           
+                        
+                            $('.fa-hamburger').click(function(){
+                                $(this).toggleClass('fa-times');
+                                $('nav').toggleClass('nav-toggle');
+                            });
+                        
+                            $('nav ul li a').click(function(){
+                                $('.fa-hamburger').removeClass('fa-times');
+                                $('nav').removeClass('nav-toggle');
+                            });
+                        
+                            $('.dot1').click(function(){
+                                $('.vid1').css('display','block');
+                                $('.vid2').css('display','none');
+                                $('.vid3').css('display','none');
+                            });
+                        
+                            $('.dot2').click(function(){
+                                $('.vid2').css('display','block');
+                                $('.vid1').css('display','none');
+                                $('.vid3').css('display','none');
+                            });
+                        
+                            $('.dot3').click(function(){
+                                $('.vid3').css('display','block');
+                                $('.vid1').css('display','none');
+                                $('.vid2').css('display','none');
+                            });
+                        
+                            $(window).on('scroll load',function(){
+                                if($(window).scrollTop() > 30){
+                                    $('#header').addClass('header-active');
+                                }else{
+                                    $('#header').removeClass('header-active');
+                                }
+                            });
+                        
+                        
+                            setTimeout(function(){
+                               $("#popUpMain").css("display","block");},5000);
+                           
+                               $("#closebtn").click(function(){
+                                $("#popUpMain").css("display","none");
+                           
+                               });
+                              
+                        
+                        });
+                        
+                        </script>
+
+<!--<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website&amp;utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div> -->
+
+<script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Go for it</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday Prices",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Get 90% Off!",h2Tag.setAttribute("style",'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Get Web Hosting for $0.99/month + SSL Certificate for FREE!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 15px;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2020-wp-inject-img.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script>
+
+
+</body>
+</html>
